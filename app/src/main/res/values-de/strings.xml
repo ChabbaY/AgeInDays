@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="main_fragment_label">Übersicht</string>
+    <string name="edit_fragment_label">Eintrag bearbeiten</string>
+    <string name="cab_delete">Eintrag löschen</string>
+    <string name="cab_change">Eintrag ändern</string>
+    <string name="cab_checked_string">ausgewählt</string>
+    <string name="years"><![CDATA[<b>%d</b><br />Jahre]]></string>
+    <string name="days"><![CDATA[<b>%d</b><br />Tage]]></string>
+    <string name="action_add_new">Neu hinzufügen</string>
+    <string name="label_person">Person:</string>
+    <string name="label_date_picker">Geburtsdatum:</string>
+    <string name="action_save">Speichern</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="customization_header">Anpassung</string>
+    <string name="theme_title">Thema</string>
+    <string name="theme_dialog_title">Thema wählen</string>
+    <string name="dark_theme_entry">Dunkel</string>
+    <string name="light_theme_entry">Hell</string>
+    <string name="system_theme_entry">System Standard</string>
+</resources>

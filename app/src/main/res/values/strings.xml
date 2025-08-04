@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Age in Days</string>
+    <string name="app_name" translatable="false">Age in Days</string>
 
     <!-- Strings used for fragments for navigation -->
     <string name="title_activity_settings">Settings</string>
@@ -12,20 +12,21 @@
     <string name="cab_checked_string">selected</string>
 
     <!-- Main fragment -->
-    <string name="years">%d\nYears</string>
-    <string name="days">%d\nDays</string>
+    <string name="years"><![CDATA[<b>%d</b><br />Years]]></string>
+    <string name="days"><![CDATA[<b>%d</b><br />Days]]></string>
     <string name="action_add_new">Add new</string>
 
     <!-- Edit fragment -->
     <string name="label_person">Person:</string>
+    <string name="label_date_picker">Date of birth:</string>
     <string name="action_save">Save</string>
     <string name="action_cancel">Cancel</string>
 
     <!-- Placeholder -->
-    <string name="placeholder_name">Max Mustermann</string>
-    <string name="placeholder_date">2000–01–01</string>
-    <string name="placeholder_years">20\nYears</string>
-    <string name="placeholder_days">10000\nDays</string>
+    <string name="placeholder_name" translatable="false">Max Mustermann</string>
+    <string name="placeholder_date" translatable="false">2000–01–01</string>
+    <string name="placeholder_years" translatable="false"><![CDATA[<b>25</b><br />Years]]></string>
+    <string name="placeholder_days" translatable="false"><![CDATA[<b>10000</b><br />Days]]></string>
 
     <!-- Preference Titles -->
     <string name="customization_header">Customization</string>

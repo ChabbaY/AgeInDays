@@ -1,11 +1,16 @@
 package cloud.englert.ageindays.data
 
+import java.time.LocalDate
 import java.util.Locale
 
 class Date (var year: Int, var month: Int, var day: Int) {
     override fun toString(): String {
         return String.format(Locale.getDefault(), "%04d-%02d-%02d",
             year, month, day)
+    }
+
+    fun toLocalDate(): LocalDate {
+        return LocalDate.of(year, month, day)
     }
 
     companion object {

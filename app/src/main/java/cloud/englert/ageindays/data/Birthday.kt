@@ -2,6 +2,10 @@ package cloud.englert.ageindays.data
 
 import android.content.ContentValues
 
+import java.time.LocalDate
+import java.time.Period
+import java.time.temporal.ChronoUnit
+
 import cloud.englert.ageindays.db.BirthdayDbHelper
 
 class Birthday(
@@ -19,10 +23,11 @@ class Birthday(
         }
 
     fun getAgeYears(): Int {
-        return 23 // TODO
+        return Period.between(date.toLocalDate(), LocalDate.now()).years
     }
 
     fun getAgeDays(): Int {
-        return 9000 // TODO
+        return ChronoUnit.DAYS.between(date.toLocalDate(),
+            LocalDate.now()).toInt()
     }
 }
