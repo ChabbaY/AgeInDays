@@ -1,8 +1,12 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
-    <style name="Base.Theme.AgeInDays" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.AgeInDays" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Transparent system bars for edge-to-edge. -->
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="iconColor">@color/black</item>
     </style>
 
     <style name="Theme.AgeInDays" parent="Base.Theme.AgeInDays" />
